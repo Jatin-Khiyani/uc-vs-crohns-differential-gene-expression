@@ -30,3 +30,22 @@ It exactly tells us how expression changes between conditions
 - -2 means 4 times less expressed in one condtion 
 
 This gives a very good intuition to judge the genes 
+
+## Applying Benjamini–Hochberg correction
+
+As we are testing tens of thounsands of samples by chance there will be alot of false negetives. To remove these false negetives we apply Benjamini-Hochberg Correction
+
+## Applying filter
+Keeping where genes are unlikely to be random chance p_value_bonf <=0.05
+ Keeping Genes where expression is large log_FC > 0.25
+
+## Gene Identified
+
+ENSG00000050165.17_DKK3
+Mean of gene 17_DKK3 for condition UC : 33.89858766354748
+Mean of gene 17_DKK3 for condition UC : 20.26151747113044
+
+
+
+
+![gene_expression_plot](gene_expression_plot.png)
